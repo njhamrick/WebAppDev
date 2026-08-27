@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(104, 60, 146);
+    color: rgb(215, 122, 241);
+}
+
+h1 {
+    color: blue;
+}
+
+ol {
+    color: aqua;
+}
+
+
+ul {
+    color: brown;
+}
+
+/* This is how you make comments on CSS */
