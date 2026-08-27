@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(235, 222, 246);
+   
+}
+
+h1 {
+    color: rgb(93, 1, 105);
+}
+
+p {
+    color: rgb(125, 58, 139);
+}
+
+h3{
+    color: rgb(93, 1, 105);
+}
+
+ul {
+    color: rgb(93, 1, 105);
+}
+
+tr {
+    color: rgb(93, 1, 105);
+}
+
+td {
+    color: rgb(125, 58, 139);
+}
+
+footer {
+        p { 
+            color: rgb(93, 1, 105);
+        }
+}
