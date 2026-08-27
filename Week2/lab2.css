@@ -5,14 +5,19 @@ body{
 
 h1 {
     color: rgb(93, 1, 105);
+    font-family:Cambria;
+
 }
 
 p {
     color: rgb(125, 58, 139);
+    font-family:'Lucida Sans';
+    font-size: 80%
 }
 
 h3{
     color: rgb(93, 1, 105);
+    font-family:Cambria;
 }
 
 ul {
@@ -30,5 +35,9 @@ td {
 footer {
         p { 
             color: rgb(93, 1, 105);
+            font-family: 'Segoe UI';
+            font-size: 50%;
         }
 }
+
+/* Used w3schools for font size */
