@@ -1,0 +1,113 @@
+/* PAGE COLORS - sets background and text color for the webpage*/
+body{
+    background-color: #0B1026;
+    color: #E8E6f2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADINGS sets text color and font for the headings*/
+h1, h2, h3 {
+    color: #9B7EDE;
+
+}
+
+/* centers different headings */
+#main-header {
+    text-align: center;
+    font-size: 30px;
+}
+#secondary-header {
+    text-align: center;
+}
+
+
+/* PARAGRAPH - sets text color and font for paragraoh text*/
+p {
+    color: #E8E6F2;
+    font-size: 80%;
+    margin: 15px;
+    padding: 10px;
+}
+
+/* centers selected text and images */
+.main-text {
+    text-align: center;
+}
+
+.highlight {
+    color: #B68CFF;
+    font-weight: bold;
+}
+/* LINKS - centers links and gives breathing room*/
+
+.nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 15px;
+}
+/* LIST - sets color for the list*/
+
+ul {
+    color: #E8E6F2;
+}
+/* TABLE -sets colors for the table */
+
+tr {
+    color: #9B7EDE;
+}
+
+td {
+    color: #E8E6F2;
+    padding: 5px;
+}
+th {
+    color: #9B7EDE;
+    padding: 5px;
+}
+
+/* FOOTER - sets color and font for the footer */
+footer {
+        p { 
+            color: #A7A8C7;
+            font-size: 50%;
+        }
+}
+
+/* BOX MODEL - adds spacing and border around each section */
+section {
+    background-color: #171B3A;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #514c80;
+}
+p {
+    margin: 15px;
+    padding: 10px;
+}
+img {
+    margin: 15px;
+    padding: 5px;
+    border: 2px solid #514C80;
+}
+table {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #514C80;
+}
+
+/* LINK STATES - changes link colors depending on the link state */
+a:link {
+    color: #6FB6FF;
+}
+a:visited {
+    color: #8F7AC8
+}
+a:hover {
+    color: #B68CFF
+}
+a:active {
+    color: #D6FF4B
+}
+/* Used w3schools for font size */
