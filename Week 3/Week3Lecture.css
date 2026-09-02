@@ -1,0 +1,66 @@
+/* # Last week we used tag selectors which changes the desired tag
+
+#Class and IDs
+#Why do we use them?
+#Problem: What if you want to style multiple elements the same way? Or one specific element?
+#Solution: Use Classes and IDs
+
+#Multiline comments SHIFT+ALT+A
+#Classes
+#Format goes like this: .Classname  */
+
+/* #Classes are reusable and can be applied to many elements */
+.highlight{
+    color: red;
+    font-weight:bold;
+}
+
+/* IDs are used for one element only */
+
+/* IDs start with # while classes start with . */
+
+#main-header{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Box Model:
+Everything in CSS is a box. Each box has layers:
+Content→text, image, or whatever is inside
+Padding→space between content and the border
+Border→the line around the element
+Margin→space between the element and other elements */
+
+/* |<--- Margin --->| [Border [Padding [Content] Padding] Border] |<--- Margin --->| */
+
+p{
+    margin: 20px; /* Space outside */
+    padding: 10px; /* Space inside */
+    border: 2px solid red; /* Can be solid, dashed, dotted */
+}
+
+/* Use margin to separate elements from each other, and padding to give breathing room inside the element */
+
+/* Link states:
+Links can change depending on their state:
+a:link → default unvisited link
+a:visited → link the user has already clicked
+a:hover → when the mouse hovers over it
+a:active → when the link is being clicked */
+
+a:link{
+    color: rgb(52, 43, 120);
+}
+a:visited{
+    color:rgb(44, 116, 174);
+    text-decoration: dashed;
+}
+a:hover{
+    font-size: x-large;
+    color:blueviolet;
+    
+}
+a:active{
+    color: black;
+   
+}
