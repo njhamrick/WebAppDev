@@ -1,0 +1,62 @@
+/* Removes the default space around the webpage and adds background color */
+body {
+    background-color: rgb(66, 92, 64);
+    margin: 0;
+}
+
+/* Changes the font size of paragraph text */
+body p {
+    font-size: 18px;
+   
+}
+
+/* Centers the title and intro text */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Makes the copyright smaller and centers it */
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Flexbox styles */
+
+/* Uses Flexbox to line the fishing cards up horizontally */
+.container {
+    display: flex; 
+    justify-content: center; /* Centers the flexbox items across the page */
+    column-gap: 70px; /* Adds space between each flexbox column */
+    
+}
+
+/* Styles each individual fishing card */
+.box {
+    background-color: rgb(126, 156, 118);
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    padding: 10px; /* Adds space between the text and the edges of the card */
+}
+
+/* Keeps the fishing pictures inside the width of each card */
+.fish-img {
+    width: 100%;
+    height: auto;
+    display: block; /* Makes the image a block element so it doesn't have extra space below it */
+}
+
+/*Adds space to the left and right sides of the headings */
+.box h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Adds space to the left and right sides of the paragraphs */
+.box p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
