@@ -47,6 +47,7 @@ if (age>=18){
 }
 
 
+
 //Making the program a bit more interactive. . . PROMPT()
 let grade=Number(prompt("Enter you grade: "))
 //prompt() displays a popup asking for input
