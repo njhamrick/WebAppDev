@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakurazato — DOM Homework</title>
+  <style>
+    /* You choose the class name */
+    .hightMode { background: #fff3cd; transition: background 200ms; }
+    .darkMode { background:#111; color:#eee; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="pageTitle">Sakurazato Page</h1>
+  </header>
+
+  <main id="mainContent">
+    <p class="introText">Welcome! This page will update with JavaScript.</p>
+    <p id="pText">Please Enjoy Sakurazato!</p>
+
+    <!-- List target you will render into -->
+    <ul id="featureList"></ul>
+
+    <!-- Image you will update -->
+    <img id="featureImage" src="https://via.placeholder.com/400x200" alt="[placeholder]" />
+
+    <!-- Buttons you will wire up -->
+    <button id="toggleHighlight">Toggle Highlight</button>
+    <button id="swapImg">Swap Image</button>
+  </main>
+
+  <footer id="pageFooter">© 2025 Nikki</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
