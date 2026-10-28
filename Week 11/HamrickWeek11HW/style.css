@@ -1,0 +1,13 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: lavender;
+    color: #333333;
+    padding: 1rem;
+}
+
+/* Dark purple theme activated by the toggle button */
+.dark {
+    background: #2d1b40;
+    color: white;
+}
