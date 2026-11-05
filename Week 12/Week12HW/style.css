@@ -1,0 +1,56 @@
+
+/* Main page styling */
+body {
+    background-color: #FFF5E6;
+    color: #332720;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Main heading */
+h1 {
+    color: #B83B36;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Section headings */
+h2 {
+    color: #56764D;
+    text-align: center;
+}
+
+/* Pizza order form */
+form {
+    background-color: #F5D98B;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 550px;
+    margin: 20px auto;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+}
+
+/* Input fields */
+input, select, textarea {
+    margin: 8px 0;
+    padding: 8px;
+}
+
+/* Buttons */
+button {
+    background-color: #B83B36;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #56764D;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Dough Re Mi</title>
+</head>
+<body>
+    <h1>A Symphony of Flavor</h1>
+    <form id="PizzaForm">
+        <!--Name-->
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name"> 
+        <br>
+        <br>
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="example@example.com">
+        <br>
+        <br>
+        <!-- Customer phone number -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" required>
+        <br>
+        <br>
+       
+        <!--Text Area: Multi-line text input -->
+        <label for="message">Special Instructions:</label>
+        <textarea id="message" rows="4" cols="40" placeholder="Enter your special instructions here..."></textarea>
+        <br>
+        <br>
+
+        <!--Radio Input: grouped by the same name, only one can be selected -->
+        <p>Select Your Crust:</p>
+        <label>
+            <input type="radio" name="crust" value="Hand Tossed">
+            Hand Tossed
+            <br>
+            <input type="radio" name="crust" value="Handmade Pan">
+            Handmade Pan
+            <br>
+            <input type="radio" name="crust" value="Crunchy Thin Crust">
+            Crunchy Thin Crust
+            <br>
+            <input type="radio" name="crust" value="New York Style">
+            New York Style
+            <br>
+            <input type="radio" name="crust" value="Gluten-Free Crust">
+            Gluten-Free Crust
+            <br>
+            <input type="radio" name="crust" value="Parmesan Stuffed Crust">
+            Parmesan Stuffed Crust
+            <br>
+        </label>
+        <br>
+        <br>
+        <!--Checkbox Input: multiple can be selected -->
+        <label>
+            <p>Select Your Pizza Toppings:</p>
+            <input type="checkbox" id="Pepperoni"/>
+            <label for="Pepperoni">Pepperoni</label>
+            
+            <input type="checkbox" id="Italian Sausage"/>
+            <label for="Italian Sausage">Italian Sausage</label>
+            
+            <input type="checkbox" id="Ham"/>
+            <label for="Ham">Ham</label>
+            
+            <input type="checkbox" id="Bacon"/>
+            <label for="Bacon">Bacon</label>
+
+            <input type="checkbox" id="Chicken"/>
+            <label for="Chicken">Chicken</label>
+
+            <input type="checkbox" id="Philly Steak"/>
+            <label for="Philly Steak">Philly Steak</label>
+
+            <input type="checkbox" id="Mushrooms"/>
+            <label for="Mushrooms">Mushrooms</label>
+             
+            <input type="checkbox" id="Onions"/>
+            <label for="Onions">Onions</label>
+            
+            <input type="checkbox" id="Green Peppers"/>
+            <label for="Green Peppers">Green Peppers</label>
+            
+            <input type="checkbox" id="Roasted Red Peppers"/>
+            <label for="Roasted Red Peppers">Roasted Red Peppers</label>
+            <br>
+            <input type="checkbox" id="Banana Peppers"/>
+            <label for="Banana Peppers">Banana Peppers</label>
+            
+            <input type="checkbox" id="Jalapenos"/>
+            <label for="Jalapenos">Jalapenos</label>
+            
+            <input type="checkbox" id="Black Olives"/>
+            <label for="Black Olives">Black Olives</label>
+            
+            <input type="checkbox" id="Pineapple"/>
+            <label for="Pineapple">Pineapple</label>
+            
+            <input type="checkbox" id="Spinach"/>
+            <label for="Spinach">Spinach</label>
+            <br>
+
+        </label>
+        <br>
+        <br>
+        <!--Select(Dropdown): allows users to choose from a list of options -->
+        <label for="orderType">Order Type:</label>
+        <select id="orderType">
+            <p>How would you like your order?</p>
+            <option value="Select your order type">- Select your order type -</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Pickup">Pickup</option>
+            <option value="WindowSide">WindowSide</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>   <!-- Submit button sends the form data to JavaScript -->
+        <button type="reset">Reset</button>  <!-- Reset button clears the form fields -->
+
+  
+    </form>
+    <section id="results"></section>
+
+  
+   
+
+</body>
