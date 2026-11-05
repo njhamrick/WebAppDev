@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"> 
+  <title>Hues & Moods</title> 
+</head>
+<body>
+  <h1>Every Shade Tells a Story</h1> <!-- Main heading for the Hues & Moods webpage -->
+
+  <form id="huesMoodsForm"> <!-- Form collects the user's information and signature shade -->
+    <label for="name">Enter your Name: </label> 
+    <input id="name" type="name" placeholder="Your name" required />   <!-- Text input for the user's name -->
+    <br>
+    <br>
+    <label for="email">Enter your email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />   <!-- Email input with required validation -->
+    <br>
+    <br>
+    <label for="message">Type your message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>  <!-- Textarea for the user's message -->
+    <br>
+    <br>
+    <p>Choose your signature shade:</p>  <!-- Radio buttons allow the user to select one signature shade -->
+    <label>
+            <input type="radio" name="color" value="Purple">
+            Purple
+            <br>
+            <input type="radio" name="color" value="Blue">
+            Blue
+            <br>
+            <input type="radio" name="color" value="Green">
+            Green
+            <br>
+            <input type="radio" name="color" value="Red">
+            Red
+            <br>
+            <input type="radio" name="color" value="Orange">
+            Orange
+            <br>
+            <input type="radio" name="color" value="Yellow">
+            Yellow
+            <br>
+            
+        </label>
+  <br>  
+  <br>
+<button type="submit">Submit</button>   <!-- Submit button sends the form data to JavaScript -->
+    <button type="reset">Reset</button>  <!-- Reset button clears the form fields -->
+  </form>
+
+  <section id="results"></section> <!-- Empty section where JavaScript displays submitted results -->
+
+  <script src="scripts.js"></script> 
+
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lecture.css">
+    <script src="lecture.js" defer></script>
+    <title>Week 12 Lecture</title>
+</head>
+<body>
+    <!--
+    What are Forms?
+    Forms are the main way users send info to a website
+        Login details, feedback, signup-order forms, etc.
+    A html form is wrapped in the <form> tag, and inside it we place form controls(text boxes, buttons, check boxes, etc.)
+    
+    The Form Element
+    -->
+    <form id="contactForm">
+    <!-- form inputs go here
+        The <form> tag groups input fields together
+            Common Form Inputs
+
+        Text input
+    -->
+        <label for="username">Name:</label>
+        <input id="username" type="text" placeholder="Enter your name"> <!--label first then input -->
+        <br>
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="example@example.com">
+        <br>
+
+        <!--Number: used for numeric input -->
+        <label for="age">Enter your age:</label>
+        <input for="age" type="number" min="0" max="110">
+        <br>
+
+        <!--Password: masks the users input -->
+        <label for="password">Enter your password:</label>
+        <input for="password" type="password">
+        <br>
+
+        <!--Text Area: Multi-line text input -->
+        <label for="message">Enter your message:</label>
+        <textarea id="message" rows="4" cols="30" placeholder="Type your message here..."></textarea>
+        <br>
+
+        <!--Radio Input: grouped by the same name, only one can be selected -->
+        <p>Select Your Favorite Color:</p>
+        <label>
+            <input type="radio" name="color" value="Purple">
+            Purple
+            <br>
+            <input type="radio" name="color" value="Blue">
+            Blue
+            <br>
+            <input type="radio" name="color" value="Green">
+            Green
+            <br>
+        </label>
+        <br>
+        <!--Checkbox Input: multiple can be selected -->
+        <label>
+            <p>Select Your Favorite Holidays:</p>
+            <input type="checkbox" id="Christmas"/>
+            <label for="Christmas">Christmas</label>
+            <br>
+            <input type="checkbox" id="Thanksgiving"/>
+            <label for="Thanksgiving">Thanksgiving</label>
+            <br>
+            <input type="checkbox" id="Halloween"/>
+            <label for="Halloween">Halloween</label>
+        </label>
+        <br>
+        <!--Select(Dropdown): allows users to choose from a list of options -->
+        <label for="age">Age:</label>
+        <select id="age">
+            <option value="">Select your age range</option>
+            <option value="0-18">0-18</option>
+            <option value="19-30">19-30</option>
+            <option value="31-50">31-50</option>
+            <option value="51+">51+</option>
+        </select>
+        <br>
+
+        <label for="Veterans">Veteran Status:</label>
+        <select id="Veterans">
+            <p>Are you a veteran?</p>
+            <option value="Select your veteran status">Select your veteran status</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+        <br>
+    </form>
+  
+    <form id="contactForm">
+        <input type="name" id="text" placeholder="Enter your name: ">
+        <button type="submit">Submit</button>
+        <!--When the form is submitted, the data will be sent to the server for processing, the page will be reloaded
+        We'll stop that so we can handle the submission with JavaScript-->
+    </form>
+</body>
