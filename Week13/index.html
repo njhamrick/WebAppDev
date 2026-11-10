@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 400px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+    
+
+
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <p id="nameError" class="error"></p>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <p id="emailError" class="error"></p>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" required>
+    <p id="phoneError" class="error"></p>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<form id="usernameForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required minlength="4" placeholder="Enter a username">
+    <button type="submit">Submit</button>
+</form>
+
+
+<label for="favoriteColor">Favorite Color:</label>
+<input type="text" id="favoriteColor">
+
+<p id="colorMessage"></p>
+
+
+
+<!-- Favorite Game Example -->
+
+<label for="favoriteGame">Favorite Game:</label>
+<input type="text" id="favoriteGame">
+<p id="gameError" class="error"></p>
+
+
+<!-- Search Input Example -->
+<label for="search">Search:</label>
+<input type="text" id="search">
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

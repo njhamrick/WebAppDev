@@ -1,0 +1,80 @@
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfd5f4;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* Page Heading */
+h1 {
+    text-align: center;
+    color: #65459b;
+}
+
+/* Contact Form */
+form {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Input Focus */
+input:focus {
+    outline: 2px solid #a88bd8;
+    border-color: #a88bd8;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #8060b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #65459b;
+}
+
+/* Validation Feedback */
+.error {
+    color: #c62828;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success {
+    color: #2e7d32;
+    font-size: 14px;
+    text-align: center;
+}
